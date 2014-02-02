@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Rojo">#FF0000</color>
+    <color name="Negro">#000000</color>
+    <color name="Blanco">#FFFFFF</color>
+    <color name="Gris">#808080</color>
+    <color name="Amarillo">#FFFF00</color>
+    <color name="Azul">#0000FF</color>
+    <color name="Verde">#00FF00</color>
+    <color name="Plata">#C0C0C0</color>
+    <color name="Carbon">#36454f</color>
+    <color name="GrisOscuro">#555555</color>    
+    <color name="Rosa">#D820F0</color>
+    <color name="Azulturquesa">#1098E2</color>
+    <color name="NaranjaWindows">#ecad00</color>
+    <color name="VerdeWindows">#339a4b</color>
+    <color name="RojoWindows">#f0491f</color>
+    <color name="AzulWindows">#009edb</color>
+    <color name="VioletaWindows">#9148cd</color>
+    <color name="Negrotransparente">#1F000000</color>
+    <color name="Azultransparente">#CC1E37EE</color>
+    <color name="Rosatransparente">#CCD820F0</color>
+    <color name="Rojotransparente">#CCFF0000</color>
+    <color name="Transparente">#00000000</color>
+    
+
+</resources>

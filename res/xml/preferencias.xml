@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <ListPreference
+   android:key="Moneda"
+   android:title="Unidad Monetaria"
+   android:summary="Moneda que usa en su pais"
+   android:dialogTitle="Indicar Moneda"
+   android:entries="@array/monedas"
+   android:entryValues="@array/simbolos" />
+    
+    
+
+</PreferenceScreen>

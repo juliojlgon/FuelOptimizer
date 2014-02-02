@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="monedas">
+      <item>Eur</item>
+      <item>USD</item>
+      <item>GBP</item>
+      <item>BRL</item>
+      <item>THB</item>
+      <item>JPY</item>
+      <item>RUB</item>
+   </string-array>
+   <string-array name="simbolos">
+      <item>€</item>
+      <item>$</item>
+      <item>£</item>
+      <item>R$</item>
+      <item>฿</item>
+      <item>円</item>
+      <item>руб</item>
+   </string-array>
+</resources>
