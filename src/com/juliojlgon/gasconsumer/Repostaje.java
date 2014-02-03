@@ -1,6 +1,5 @@
 package com.juliojlgon.gasconsumer;
 
-
 public class Repostaje {
 	private int ID;
 	private Double litros;
@@ -18,7 +17,7 @@ public class Repostaje {
 		this.ID = id;
 		this.litros = litros;
 		this.km = km;
-		this.fecha = fecha ;
+		this.fecha = fecha;
 		this.consumo = c;
 		this.precio = p;
 
@@ -82,5 +81,4 @@ public class Repostaje {
 	public void setConsumo(Double consumo) {
 		this.consumo = consumo;
 	}
-
 }
