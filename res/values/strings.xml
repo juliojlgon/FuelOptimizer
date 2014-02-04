@@ -10,7 +10,13 @@
     <string name="consumoMedio_Label">Consumo Medio</string>
     <string name="kmTotales_Label">Km Recorridos</string>
     <string name="gastoTotal_Label">Gasto</string>
+    <string name="eficiencia_Label">Eficiencia</string>
+    <string name="ultimos_Label">Últimos Repostajes</string>
     
+    <!-- Opciones para eficiencia -->
+    <string name="gasolina_Label">Gasolina</string>
+	<string name="min_label">Min</string>
+	<string name="max_label">Max</string>    
     <!-- String complementarios -->
 	<string name="stringVacio"></string>
 </resources>

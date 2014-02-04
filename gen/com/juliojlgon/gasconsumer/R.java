@@ -53,16 +53,34 @@ public final class R {
     }
     public static final class id {
         public static final int ScrollView1=0x7f0b0001;
-        public static final int acercade=0x7f0b000a;
-        public static final int button1=0x7f0b0007;
-        public static final int button2=0x7f0b0008;
+        public static final int acercade=0x7f0b001c;
+        public static final int button1=0x7f0b0019;
+        public static final int button2=0x7f0b001a;
         public static final int elegir_Vehiculo_Spinner=0x7f0b0002;
+        public static final int lblCanual=0x7f0b0005;
+        public static final int lblGTotal=0x7f0b000b;
+        public static final int lblKmTotal=0x7f0b0008;
         public static final int pager=0x7f0b0000;
-        public static final int preferencias=0x7f0b0009;
-        public static final int textView1=0x7f0b0003;
+        public static final int preferencias=0x7f0b001b;
+        public static final int tableRow2=0x7f0b0006;
+        public static final int tableRow3=0x7f0b0009;
+        public static final int tableRow4=0x7f0b0015;
+        public static final int tableRow5=0x7f0b0017;
+        public static final int tableRow6=0x7f0b000c;
+        public static final int tableRow7=0x7f0b000e;
+        public static final int tableRow8=0x7f0b0011;
+        public static final int tableRow9=0x7f0b0014;
+        public static final int tablerow1=0x7f0b0003;
+        public static final int textView1=0x7f0b0016;
+        public static final int textView10=0x7f0b0013;
+        public static final int textView11=0x7f0b0010;
         public static final int textView2=0x7f0b0004;
-        public static final int textView3=0x7f0b0005;
-        public static final int textView4=0x7f0b0006;
+        public static final int textView3=0x7f0b0007;
+        public static final int textView4=0x7f0b000a;
+        public static final int textView5=0x7f0b0018;
+        public static final int textView6=0x7f0b000d;
+        public static final int textView7=0x7f0b000f;
+        public static final int textView8=0x7f0b0012;
     }
     public static final class layout {
         public static final int actividad_principal=0x7f030000;
@@ -80,19 +98,31 @@ public final class R {
          */
         public static final int addVehicule_Boton=0x7f070002;
         public static final int app_name=0x7f070000;
+        public static final int consumoMedio_Label=0x7f070004;
+        public static final int eficiencia_Label=0x7f070007;
+        /**  Opciones para eficiencia 
+         */
+        public static final int gasolina_Label=0x7f070009;
+        public static final int gastoTotal_Label=0x7f070006;
+        public static final int kmTotales_Label=0x7f070005;
+        public static final int max_label=0x7f07000b;
+        public static final int min_label=0x7f07000a;
         /**  String complementarios 
          */
-        public static final int stringVacio=0x7f070004;
+        public static final int stringVacio=0x7f07000c;
+        public static final int ultimos_Label=0x7f070008;
     }
     public static final class style {
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
     
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
+
         
 
         Base application theme for API 11+. This theme completely replaces
@@ -111,6 +141,10 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f080001;
+        /**  Estilo para el divisor 
+         */
+        public static final int Divider=0x7f080002;
+        public static final int Resultado=0x7f080003;
     }
     public static final class xml {
         public static final int preferencias=0x7f040000;
