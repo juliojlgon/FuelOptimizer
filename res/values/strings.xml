@@ -2,7 +2,15 @@
 <resources>
 
     <string name="app_name">Fuel Optimizer</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Preferencias</string>
 
+    <!-- Strings para el fragment Resumen -->
+    <string name="addVehicule_Boton">Añadir Vehiculo</string>
+    <string name="addData_Boton">Añadir Registro</string>
+    <string name="consumoMedio_Label">Consumo Medio</string>
+    <string name="kmTotales_Label">Km Recorridos</string>
+    <string name="gastoTotal_Label">Gasto</string>
+    
+    <!-- String complementarios -->
+	<string name="stringVacio"></string>
 </resources>
