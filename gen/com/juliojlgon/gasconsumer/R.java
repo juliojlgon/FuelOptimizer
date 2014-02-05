@@ -52,35 +52,49 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
+        public static final int FiltroCheck=0x7f0b0004;
         public static final int ScrollView1=0x7f0b0001;
-        public static final int acercade=0x7f0b001c;
-        public static final int button1=0x7f0b0019;
-        public static final int button2=0x7f0b001a;
-        public static final int elegir_Vehiculo_Spinner=0x7f0b0002;
-        public static final int lblCanual=0x7f0b0005;
-        public static final int lblGTotal=0x7f0b000b;
-        public static final int lblKmTotal=0x7f0b0008;
+        public static final int Table_Repostaje=0x7f0b0022;
+        public static final int acercade=0x7f0b002a;
+        public static final int add_Data_Button=0x7f0b0027;
+        public static final int add_vehicule_button=0x7f0b0028;
+        public static final int body_Layout=0x7f0b000d;
+        public static final int borrarButton=0x7f0b000b;
+        public static final int borrarTodoBut=0x7f0b000a;
+        public static final int button1=0x7f0b0003;
+        public static final int button2=0x7f0b0008;
+        public static final int consumo_Anual_Label=0x7f0b0011;
+        public static final int eficiencia_Max_Label=0x7f0b0020;
+        public static final int eficiencia_Min_label=0x7f0b001d;
+        public static final int elegir_Vehiculo_Spinner=0x7f0b000c;
+        public static final int filtroCoches=0x7f0b0005;
+        public static final int gasto_Total_Label=0x7f0b0017;
+        public static final int km_Recorridos_Label=0x7f0b0014;
+        public static final int lblMes=0x7f0b0007;
+        public static final int listaCoches=0x7f0b0009;
         public static final int pager=0x7f0b0000;
-        public static final int preferencias=0x7f0b001b;
-        public static final int tableRow2=0x7f0b0006;
-        public static final int tableRow3=0x7f0b0009;
-        public static final int tableRow4=0x7f0b0015;
-        public static final int tableRow5=0x7f0b0017;
-        public static final int tableRow6=0x7f0b000c;
-        public static final int tableRow7=0x7f0b000e;
-        public static final int tableRow8=0x7f0b0011;
-        public static final int tableRow9=0x7f0b0014;
-        public static final int tablerow1=0x7f0b0003;
-        public static final int textView1=0x7f0b0016;
-        public static final int textView10=0x7f0b0013;
-        public static final int textView11=0x7f0b0010;
-        public static final int textView2=0x7f0b0004;
-        public static final int textView3=0x7f0b0007;
-        public static final int textView4=0x7f0b000a;
-        public static final int textView5=0x7f0b0018;
-        public static final int textView6=0x7f0b000d;
-        public static final int textView7=0x7f0b000f;
-        public static final int textView8=0x7f0b0012;
+        public static final int preferencias=0x7f0b0029;
+        public static final int spinner1=0x7f0b0002;
+        public static final int spnCoches=0x7f0b0006;
+        public static final int tableRow2=0x7f0b0012;
+        public static final int tableRow3=0x7f0b0015;
+        public static final int tableRow4=0x7f0b0023;
+        public static final int tableRow5=0x7f0b0025;
+        public static final int tableRow6=0x7f0b0019;
+        public static final int tableRow7=0x7f0b001b;
+        public static final int tableRow8=0x7f0b001e;
+        public static final int tableRow9=0x7f0b0021;
+        public static final int table_Consumo_Total=0x7f0b000e;
+        public static final int table_Eficiencia=0x7f0b0018;
+        public static final int tablerow1=0x7f0b000f;
+        public static final int textView1=0x7f0b0024;
+        public static final int textView2=0x7f0b0010;
+        public static final int textView3=0x7f0b0013;
+        public static final int textView4=0x7f0b0016;
+        public static final int textView6=0x7f0b001a;
+        public static final int textView7=0x7f0b001c;
+        public static final int textView8=0x7f0b001f;
+        public static final int ultimosRepostajes_Label=0x7f0b0026;
     }
     public static final class layout {
         public static final int actividad_principal=0x7f030000;
@@ -98,18 +112,26 @@ public final class R {
          */
         public static final int addVehicule_Boton=0x7f070002;
         public static final int app_name=0x7f070000;
+        public static final int borrarData=0x7f07000c;
+        public static final int borrarVehiculo=0x7f07000d;
         public static final int consumoMedio_Label=0x7f070004;
         public static final int eficiencia_Label=0x7f070007;
         /**  Opciones para eficiencia 
          */
-        public static final int gasolina_Label=0x7f070009;
+        public static final int gasolina_Label=0x7f07000f;
         public static final int gastoTotal_Label=0x7f070006;
         public static final int kmTotales_Label=0x7f070005;
-        public static final int max_label=0x7f07000b;
-        public static final int min_label=0x7f07000a;
+        public static final int max_label=0x7f070011;
+        public static final int mesAnterior=0x7f07000b;
+        public static final int mesNulo=0x7f07000e;
+        public static final int mesSiguiente=0x7f07000a;
+        public static final int min_label=0x7f070010;
+        /**  Strings para el fragment Mensual 
+         */
+        public static final int seleccionarVehiculo=0x7f070009;
         /**  String complementarios 
          */
-        public static final int stringVacio=0x7f07000c;
+        public static final int stringVacio=0x7f070012;
         public static final int ultimos_Label=0x7f070008;
     }
     public static final class style {

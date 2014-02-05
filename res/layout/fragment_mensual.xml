@@ -1,16 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#ff8400" >
-     
-    <TextView android:layout_width="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/FiltroCheck"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Design Games Screen"
-        android:textSize="20dp"
-        android:layout_centerInParent="true"/>
-     
- 
-</RelativeLayout>
+        android:onClick="actualizarVista"
+        android:text="@string/seleccionarVehiculo" />
+
+    <RelativeLayout
+        android:id="@+id/filtroCoches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" >
+
+        <Spinner
+            android:id="@+id/spnCoches"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+    <View style="@style/Divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="Anterior"
+                android:layout_weight="1"
+                android:text="@string/mesAnterior" />
+
+            <TextView
+                android:id="@+id/lblMes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/mesNulo"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="Siguiente"
+                android:layout_weight="1"
+                android:text="@string/mesSiguiente" />
+    </LinearLayout>
+
+    <View style="@style/Divider" />
+
+    <ListView
+        android:id="@+id/listaCoches"
+        android:layout_width="match_parent"
+        android:layout_height="196dp" >
+    </ListView>
+
+    <View style="@style/Divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/borrarTodoBut"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BorrarCoche"
+            android:text="@string/borrarVehiculo" />
+
+        <Button
+            android:id="@+id/borrarButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Borrar"
+            android:text="@string/borrarData" />
+    </LinearLayout>
+
+</LinearLayout>

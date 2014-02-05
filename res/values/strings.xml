@@ -13,6 +13,14 @@
     <string name="eficiencia_Label">Eficiencia</string>
     <string name="ultimos_Label">Últimos Repostajes</string>
     
+    <!-- Strings para el fragment Mensual -->
+    <string name="seleccionarVehiculo">Filtrar vehiculos</string>
+    <string name="mesSiguiente">Siguiente</string>
+    <string name="mesAnterior">Anterior</string>
+    <string name="borrarData">Borrar Repostaje</string>
+    <string name="borrarVehiculo">Borrar Vehiculo</string>
+    <string name="mesNulo">MES</string>
+    
     <!-- Opciones para eficiencia -->
     <string name="gasolina_Label">Gasolina</string>
 	<string name="min_label">Min</string>
